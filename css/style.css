@@ -22,17 +22,17 @@ main {
   grid-area: main;
   display: grid;
   grid-template-areas:
-    "banner"
-    "about"
+    "banner-top"
     "products"
     "portfolio"
-    "contact"
-    "blog";
+    "quality"
+    "banner-bottom"
+    "contact";
   grid-template-rows: repeat(6, auto);
 }
 
-#banner {
-  grid-area: banner;
+#banner-top {
+  grid-area: banner-top;
   height: 380px;
   background-image: url(../img/banner__background-image.jpg);
   background-repeat: no-repeat;
@@ -44,10 +44,6 @@ main {
   color: var(--white);
 }
 
-#about {
-  grid-area: about;
-}
-
 #products {
   grid-area: products;
 }
@@ -56,12 +52,16 @@ main {
   grid-area: portfolio;
 }
 
-#contact {
-  grid-area: contact;
+#quality {
+  grid-area: quality;
 }
 
-#blog {
-  grid-area: blog;
+#banner-bottom {
+  grid-area: banner-bottom;
+}
+
+#contact {
+  grid-area: contact;
 }
 
 footer {
