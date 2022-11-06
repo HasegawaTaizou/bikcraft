@@ -8,6 +8,18 @@ body {
 
 header {
   grid-area: header;
+  height: 90px;
+  background-color: tomato;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 500px;
+  padding-left: 500px;
+}
+
+.navigation-container {
+  display: flex;
+  gap: 32px;
 }
 
 main {
