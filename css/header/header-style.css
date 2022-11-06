@@ -1,0 +1,9 @@
+.navigation-container {
+  display: flex;
+  gap: 32px;
+  font-weight: bold;
+}
+
+.navigation-container a {
+  color: #000;
+}
