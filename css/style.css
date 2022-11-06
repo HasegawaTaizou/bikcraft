@@ -12,6 +12,38 @@ header {
 
 main {
   grid-area: main;
+  display: grid;
+  grid-template-areas:
+    "banner"
+    "about"
+    "products"
+    "portfolio"
+    "contact"
+    "blog";
+}
+
+#banner {
+  grid-area: banner;
+}
+
+#about {
+  grid-area: about;
+}
+
+#products {
+  grid-area: products;
+}
+
+#portfolio {
+  grid-area: portfolio;
+}
+
+#contact {
+  grid-area: contact;
+}
+
+#blog {
+  grid-area: blog;
 }
 
 footer {
