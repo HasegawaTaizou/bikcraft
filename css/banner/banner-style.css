@@ -11,16 +11,16 @@
 .banner__text::before {
   content: "";
   display: block;
-  border-top: 4px solid #fff;
-  width: 65px;
+  border-top: 4px solid var(--white);
+  width: var(--border-width);
   margin: 14px auto 10px auto;
 }
 
 .banner__text::after {
   content: "";
   display: block;
-  border-bottom: 4px solid #fff;
-  width: 65px;
+  border-bottom: 4px solid var(--white);
+  width: var(--border-width);
   margin: 10px auto 14px auto;
 }
 
@@ -34,7 +34,7 @@
   margin-top: 35px;
   font-weight: bold;
   padding: 8px 35px;
-  color: #fec63e;
-  border: 4px solid #fec63e;
+  color: var(--yellow);
+  border: 4px solid var(--yellow);
   background-color: transparent;
 }

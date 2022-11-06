@@ -10,7 +10,7 @@ body {
 header {
   grid-area: header;
   height: 90px;
-  background-color: #fec63e;
+  background-color: var(--yellow);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,7 +41,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: var(--white);
 }
 
 #about {
