@@ -46,6 +46,10 @@ main {
 
 #products {
   grid-area: products;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #portfolio {

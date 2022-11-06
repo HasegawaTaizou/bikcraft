@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/header/header-style.css" />
     <link rel="stylesheet" href="./css/banner-top/banner-top-style.css" />
+    <link rel="stylesheet" href="./css/products/products-style.css" />
     <title>Bikcraft</title>
   </head>
   <body>
@@ -28,13 +29,68 @@
       <section class="banner-top" id="banner-top">
         <h1 class="banner__title">BICICLETAS FEITAS A MÃO</h1>
         <p class="banner__text">
-          “não tenha nada em sua casa que você não</br>considere útil ou acredita
+          “não tenha nada em sua casa que você não considere útil ou acredita
           ser bonito”
         </p>
         <p class="banner__writer">WILLIAM MORRIS</p>
         <button class="banner__button">ORÇAMENTO</button>
       </section>
-      <section id="products"></section>
+      <section id="products">
+        <h2 class="products__title">PRODUTOS</h2>
+        <ul class="products-container">
+          <li>
+            <a href="#" class="product">
+              <img
+                src="./img/products-touring-bike.svg"
+                alt=""
+                class="product__image"
+              />
+              <div class="product__specifications">
+                <span class="product__type">PASSEIO</span>
+                <p class="product__text">
+                  Muito melhor do que passear pela orla a vidros fechados
+                </p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="product">
+              <img
+                src="./img/products-sport-bike.svg"
+                alt=""
+                class="product__image"
+              />
+              <div class="product__specifications">
+                <span class="product__type">ESPORTE</span>
+                <p class="product__text">
+                  Mais rápida do que Forrest Gump. Ninguém vai pegar você
+                </p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="product">
+              <img
+                src="./img/products-retro-bike.svg"
+                alt=""
+                class="product__image"
+              />
+              <div class="product__specifications">
+                <span class="product__type">RETRÔ</span>
+                <p class="product__text">
+                  O passado volta para lembrarmos o que devemos fazer no futuro
+                </p>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <div class="products__button-container">
+          <span class="products__button__description"
+            >Clique aqui e veja os detalhes dos produtos</span
+          >
+          <button class="products__button__button">PRODUTOS</button>
+        </div>
+      </section>
       <section id="portfolio"></section>
       <section id="quality"></section>
       <section id="banner-bottom"></section>
